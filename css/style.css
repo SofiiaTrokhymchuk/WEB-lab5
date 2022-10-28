@@ -1,0 +1,69 @@
+h2{
+    margin: 30px 0;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.form-group{
+    margin: 3px;
+}
+
+.error-msg{
+    visibility: hidden;
+    font-weight: 600;
+    color: red;
+}
+
+.error-msg.active{
+    visibility: visible;
+}
+
+.form, .entered-info{
+    width: 50%;
+    max-width: 400px;
+}
+
+.entered-info h3{
+    margin: 15px 0 50px 0;
+}
+
+.entered-info p{
+    font-weight: bold;
+}
+
+.entered-info span{
+    font-weight: normal;
+}
+
+.table-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table{
+    max-width: 500px;
+    text-align: center;
+}
+
+.table td{
+    padding: 0;
+    line-height: 50px;
+}
+
+#variant{
+    cursor: pointer;
+}
+
+#color-picker{
+    margin-right: 450px;
+}

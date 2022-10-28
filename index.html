@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Т.С.С. ІА-94 ЛР№5 В№5</title>
+</head>
+<body>
+    <main class="main">
+        <h2>Завдання 1</h2>
+        <section class="form-section">
+            <div class="form">
+                <h3>Форма для заповнення</h3>
+                <form action="#" method="post" id="form">
+                    <div class="form-group">
+                        <label for="full_name">ПІБ:</label>
+                        <input type="text" id="full_name" name="full_name" 
+                        class="form-control" placeholder="Самойленко М. С.">
+                        <small class="error-msg">Error message</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="faculty">Факультет:</label>
+                        <input type="text" id="faculty" name="faculty" 
+                        class="form-control" placeholder="ФІОТ">
+                        <small class="error-msg">Error message</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="birth_date">Дата народж.:</label>
+                        <input type="date" id="birth_date" name="birth_date" 
+                        class="form-control">
+                        <small class="error-msg">Error message</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Адреса:</label>
+                        <input type="text" id="address" name="address" 
+                        class="form-control" placeholder="м. Київ">
+                        <small class="error-msg">Error message</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" 
+                        class="form-control" placeholder="example@ex.com">
+                        <small class="error-msg">Error message</small>
+                    </div>
+                    <input type="submit" id="submit" value="Підтвердити" class="btn btn-primary">
+                </form>
+            </div>
+            <div class="entered-info">
+                <h3>Введені дані</h3>
+                <p>ПІБ: <span id="entered_full_name">Дані не введені</span></p>
+                <p>Факультет: <span id="entered_faculty">Дані не введені</span></p>
+                <p>Дата народж.: <span id="entered_birth_date">Дані не введені</span></p>
+                <p>Адреса: <span id="entered_address">Дані не введені</span></p>
+                <p>E-mail: <span id="entered_email">Дані не введені</span></p>
+            </div>
+        </section>
+        <section class="table-section">
+            <h2>Завдання 2</h2>
+            <input type="color" id="color-picker">
+            <table id="table" class="table table-bordered">
+            </table>
+        </section>
+    </main>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
